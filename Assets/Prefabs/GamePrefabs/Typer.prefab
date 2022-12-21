@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1462812914381611845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5839719806708804912}
+  - component: {fileID: 3002558216917315441}
+  m_Layer: 0
+  m_Name: Typer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5839719806708804912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462812914381611845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3002558216917315441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462812914381611845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc8d12e8d0cf5b34eadd07d59f2121cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wordBank: {fileID: 0}
+  wordOutput: {fileID: 0}
+  remaining: {fileID: 0}
+  level: {fileID: 0}
+  timer: {fileID: 0}
+  life1: {fileID: 0}
+  life2: {fileID: 0}
+  life3: {fileID: 0}
+  lowHealth: {fileID: 0}
+  heart: {fileID: 21300000, guid: 1eac7db530b4814458113c7a938ecd57, type: 3}
+  heartless: {fileID: 21300000, guid: 6aa94f359286a62468b9d86ea2d1718c, type: 3}
+  money: {fileID: 0}
+  soundManager: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  shop: {fileID: 0}
+  enemyHealthBar: {fileID: 0}
+  playerHealthBar: {fileID: 0}
+  critBar: {fileID: 0}
+  SwordCover: {fileID: 0}
+  Sword: {fileID: 0}
+  SwordSwing: {fileID: 0}
+  Cave: {fileID: 0}
+  AuntumnRift: {fileID: 0}
+  Colloseum: {fileID: 0}
+  GreenMountain: {fileID: 0}
+  ShopMenu: {fileID: 0}
+  DeadPageUI: {fileID: 0}
+  ShopButtonUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentLevel: 0
+  checkpoint: 0
+  timeRemaining: 5
+  maxTime: 5
+  playerAttack: 100
+  enemyAttack: 100
+  enemyAttackSpeed: 3
+  attackEffectUI: {fileID: 0}
+  getAttackEffectUI: {fileID: 0}
+  blood: {fileID: 0}
+  bloodPos: {fileID: 0}
